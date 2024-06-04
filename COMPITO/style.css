@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    margin: 0px;
+    background-color: #041e2a;
+   
+}
+
+img {
+    max-width: 400px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 5px;
+    margin: 20px;
+    min-width: 40px;
+    border: 3PX solid black;
+}
+#container{
+    margin-top: 20px;
+    border: 2PX solid black;
+    box-shadow: 2px 5px 7px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10PX;
+    background-color: #d6e6ff;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+    
+   
+}
+header{
+    text-align: center;
+    background-color: #e5d4ef;
+    padding: 0px;
+    padding: 30px;
+    box-shadow: 3px 8px 10px white;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-radius: 50px;
+    
+    }
+    footer{
+        margin: 10px 40px 0px 40px;
+        background-color: beige;
+        border-radius: 50px;
+        box-shadow: 2px 7px 10px whitesmoke;
+        border: 4PX solid black;
+       
+    }
+.prodotti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+main{
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 20px;
+margin-bottom: 0px;
+box-shadow: 3px 5px 10px white;
+border-radius: 50px;
+position: absolute;
+}
+button {
+    display: block;
+    position: relative;
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+
+}
+button::before{
+    content: "";
+    width: 0;
+    height: 3cm;
+    border-radius: 30cm;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: .5s ease;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    z-index: -1;
+}
+button:hover::before {
+    width: 9cm;
+
+}
+h1{
+    color: rgb(62, 7, 7);
+}
+.backpage{
+    background-color: red;
+}
+ h2{
+    color: rgb(39, 25, 25);
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px;
+    border: 1PX solid black;
+ }
+
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.pink{
+    background-color: pink;
+}
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
