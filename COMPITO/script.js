@@ -1,5 +1,5 @@
 const title = document.querySelector("h1");
-title.textContent =("Michela shop");
+title.textContent =(" Shop");
   console.log(title);
  
 /*function backColorpage() {
